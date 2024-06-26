@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Intercine</title>
+    <title>Disney • Pixar</title>
     <style>
         body {
             margin: 0;
             font-family: Arial, sans-serif;
         }
-        .top-bar {
+
+        .topo-nav {
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -18,15 +20,18 @@
             height: 40px;
             color: white;
         }
-        .top-bar img {
+
+        .topo-nav img {
             height: 30px;
         }
+
         .info {
             margin-left: 10px;
             font-size: 12px;
             position: relative;
             top: -9.5px;
         }
+
         .button {
             background-color: #e05f30;
             color: white;
@@ -39,62 +44,159 @@
             border-style: solid;
             border-width: 1px;
         }
+
         .button:hover {
             background-color: #c75328;
         }
+
         .banner {
             background-image: url(https://i.ibb.co/qpS8NNj/Banner-Landing-Page.jpg);
             background-size: 100%;
             background-repeat: no-repeat;
             color: white;
-            padding: 200px;
+            padding: 230px;
             text-align: center;
         }
-        .banner h1, .banner h4, .banner h5, .banner h6 {
-            text-align: left;
-        }
-        .medium-bar {
+
+        .meio-nav {
             display: flex;
             align-items: center;
-            justify-content: space-between;
+            justify-content: center;
             background-color: #09445c;
-            padding: 0 10px;
-            height: 200px;
+            padding: 60px 10px;
             color: white;
+            flex-direction: column;
         }
+
         .button-meio {
-            background-color: #e05f30;
-            color: white;
+            background-color: white;
+            color: #09445c;
             border: none;
-            padding: 5px 10px;
+            padding: 10px 20px;
             font-size: 20px;
-            font-family: cursive;
             cursor: pointer;
-            margin-right: 2%;
-            margin-left: 45%;
             border-radius: 0;
             border-style: solid;
             border-width: 1px;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
+            text-decoration: none;
+            margin-top: 10px;
         }
+
         .button-meio:hover {
-            background-color: #c75328;
+            background-color: #e05f30;
+        }
+
+        .text-pay {
+            font-size: 25px;
+            text-align: center;
+            margin-bottom: 2px;
+        }
+
+        .text-pay2 {
+            font-size: 9px;
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        .meio-nav2 {
+            display: flex;
+            align-items: baseline;
+            background-color: white;
+            padding: 80px 450px 450px 450px;
+            color: #09445c;
+            flex-direction: column;
+        }
+
+        .text-catalog {
+            font-size: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            margin-top: -20px;
+            color: #09445c;
+            font-weight: bold;
+        }
+
+        .text-catalog2 {
+            font-size: 14px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            margin-top: -440px;
+            color: #09445c;
+        }
+        .rectangle-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            margin: 40px;
+        }
+
+        .rectangle {
+            width: 190px;
+            height: 80px;
+            border: 2px solid #09445c;
+            margin: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .button-list {
+            background-color: white;
+            color: #09445c;
+            border: none;
+            padding: 10px 20px;
+            font-size: 20px;
+            cursor: pointer;
+            border-radius: 0;
+            border-style: solid;
+            border-width: 1px;
+            text-decoration: none;
+            margin-top: 10px;
+            margin-left: 41%;
+        }
+        .button-list:hover {
+            background-color: #e05f30;
         }
     </style>
 </head>
+
 <body>
-    <div class="top-bar">
+    <div class="topo-nav">
         <div>
             <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0da5d569-0f3d-47c4-98d9-2ac29218c2a0/ddhycwh-29a3a3b6-1500-4a79-bd82-7535341b27e8.png/v1/fill/w_1280,h_346/white_disney_pixar_logo_by_trustamann_ddhycwh-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MzQ2IiwicGF0aCI6IlwvZlwvMGRhNWQ1NjktMGYzZC00N2M0LTk4ZDktMmFjMjkyMThjMmEwXC9kZGh5Y3doLTI5YTNhM2I2LTE1MDAtNGE3OS1iZDgyLTc1MzUzNDFiMjdlOC5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.3k5bM1yfTck3F23f0inS6yOda_UNKrZ2xLricPnBvE8" alt="Logo">
             <span class="info">Filmes, Séries e Diversão</span>
         </div>
-        <button class="button">Acessar Perfil</button>
+        <button class="button">Fazer Login</button>
     </div>
 
-    <div class="banner"> </div>
-    <div class="medium-bar">
-        <button class="button-meio" class="button:hover"><a href="https://www.youtube.com/watch?v=yAZxx8t9zig&pp=ygUHZGl2ZXJ0aQ%3D%3D">Assista Agora</a></button>
+    <div class="banner"></div>
+    <div class="meio-nav">
+        <div class="text-pay">Não tem assinatura? Temos uma prévia gratuita para você!</div>
+        <a href="https://www.youtube.com/watch?v=yAZxx8t9zig&pp=ygUHZGl2ZXJ0aQ%3D%3D" target="_blank" class="button-meio">Assista ao trailer</a>
+        <div class="text-pay2">Para ativar as legendas no seu idioma altere as configurações na engrenagem do youtube</div>
+    </div>
+    <div class="meio-nav2">
+        <div class="text-catalog">A Disney e a Pixar juntas para proporcionar a melhor diversão para toda a sua família</div>
+    </div>
+    <div>
+        <div class="text-catalog2">Confira os principais títulos de nosso catálogo e desfrute do melhor da animação mundial no conforto do seu lar</div>
+    </div>
+    <div class="rectangle-container">
+        <div class="rectangle"> <p>Vida de Inseto</p></div>
+        <div class="rectangle"> <p>Carros</p></div>
+        <div class="rectangle"> <p>Os Incríveis</p></div>
+        <div class="rectangle"> <p>Os Incríveis 2</p></div>
+        <div class="rectangle"> <p>Bolt, O Supercão</p></div>
+        <div class="rectangle"> <p>Procurando Nemo</p></div>
+        <div class="rectangle"> <p>Toy Story</p></div>
+        <div class="rectangle"> <p>Toy Story 2</p></div>
+        <div class="rectangle"> <p>Toy Story 3</p></div>
+        <div class="rectangle"> <p>Toy Story 4</p></div>
+        <div class="rectangle"> <p>Divertida Mente</p></div>
+        <div class="rectangle"> <p>Divertida Mente 2</p></div>
+    </div>
+    <div>
+        <a href="https://www.youtube.com/watch?v=xx7el4PpY00&pp=ygUhdG9kb3Mgb3MgZmlsbWVzIGRhIGRpc25leSBlIHBpeGFy" target="_blank" class="button-list">Confira a lista completa</a>
+    </div>
 </body>
 </html>
